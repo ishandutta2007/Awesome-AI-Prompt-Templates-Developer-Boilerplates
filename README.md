@@ -1,221 +1,217 @@
-# Awesome-AI-Prompt-Templates-Developer-Boilerplates
+# Awesome AI Prompt Templates & Developer Boilerplates
 
-## Top AI Prompt Templates & Developer Boilerplates Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Tracked Projects](https://img.shields.io/badge/Tracked%20Projects-35%2B-blue.svg)](#table-of-contents)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-November%202026-green.svg)](#sector-overview--market-dynamics)
 
+> A curated directory of battle-tested AI prompt templates, coding agent configurations (`CLAUDE.md`, `SKILL.md`, `.cursorrules`), full-stack AI starter boilerplates, LLM evaluation harnesses, and prompt management SaaS platforms.
 
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on AI Coding Agent Templates, Reusable Prompt Libraries, System Prompt Collections, Full-Stack AI Starter Kits & Prompt Optimization Frameworks*  
-
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Prompt Templates & Developer Boilerplates**. These tools provide battle-tested `CLAUDE.md` / `SKILL.md` / `.cursorrules` agent configurations, curated prompt libraries, full-stack RAG and multi-agent application starter boilerplates, prompt versioning registries, and automated prompt compilers.
-
-
-
-**Examples** include PromptBase, FlowGPT, PromptHero, PromptLayer, AIPRM, Snack Prompt, PromptPerfect, ChatX, PromptHub, LearnPrompting Pro, and davila7/claude-code-templates (the category leaders). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for AI agent templates and rules (`claude-code-templates`, `awesome-cursorrules`, `Fabric`), community prompt collections (`Awesome ChatGPT Prompts`), full-stack AI app boilerplates (`Vercel AI Chatbot`, `Full-Stack FastAPI + LangGraph`), and declarative prompt optimizers (`DSPy`, `Promptfoo`) — ideal for AI engineers, full-stack developers, and prompt architects accelerating production builds.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
+---
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted Prompt Management Platforms](#saas--hosted-prompt-management-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
+  - [Prompt Libraries, Guides & Community Repositories](#prompt-libraries-guides--community-repositories)
+  - [Agent Rules, IDE Configs & Skill Specifications](#agent-rules-ide-configs--skill-specifications)
+  - [Full-Stack AI Starter Kits & Developer Boilerplates](#full-stack-ai-starter-kits--developer-boilerplates)
+  - [Prompt Optimization, Testing & LLM Observability](#prompt-optimization-testing--llm-observability)
+- [Key Architectural Components](#key-architectural-components)
 - [How to Contribute](#how-to-contribute)
+- [Disclaimer & License](#disclaimer--license)
 
-- [Disclaimer](#disclaimer)
+---
 
+## Sector Overview & Market Dynamics
 
+The global AI prompt engineering and prompt management tooling market is estimated at **$670M to $2.6B+**, growing rapidly at a CAGR exceeding **25%** toward a projected **$8B+ by 2032**. 
 
-## SaaS/Hosted Platforms
+The sector exhibits **moderate fragmentation** at the tool and developer layer—spanned by hundreds of specialized open-source CLI tools, agent skill registries, and niche prompt repositories—while simultaneously experiencing **accelerating concentration and platform aggregation** as enterprise observability platforms, model labs, and hyperscalers (Azure AI Foundry, AWS Bedrock, OpenAI) aggressively bundle prompt registries, evaluations, and CI/CD pipelines into unified LLMOps suites.
 
+---
 
+## SaaS & Hosted Prompt Management Platforms
 
-- **[PromptLayer](https://promptlayer.com)**  
+Commercial prompt engineering studios, prompt registries (CMS), marketplaces, and enterprise prompt optimization platforms. Sorted descending by company valuation / scale / funding.
 
-  Enterprise prompt CMS and observability platform offering visual prompt template versioning, release labels, A/B testing, dataset evaluations, and collaborative workflows.
+| Platform | Company Scale / Valuation / Funding | Starting Tier Pricing | Free Tier Limits / Evaluation Period | Core Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[FlowGPT](https://flowgpt.com)** | **~$250M–$500M+ valuation** ($70M total funding, ~$45M ARR under Kaon AI) | $14.99/month (Plus tier) | Free forever with standard LLM chat models (Ares), baseline conversational memory, and unlimited public prompt browsing (no Flux bonus generation credits). | Interactive prompt sharing community, multi-turn AI character playground, and bot marketplace across GPT, Claude, and open weights. |
+| **[PromptPerfect (Jina AI)](https://jina.ai)** | **$43.3M acquisition exit** (Acquired by Elastic in 2025; raised $39M prior) | $9.50/month (Standard tier) | Free tier allows 3 prompt optimizations/day on web or 1–3 daily perfect runs via the browser extension (standalone web sunset September 2026 into Elastic core). | Automated multi-model prompt optimizer, compressor, and translation engine across major LLMs and image diffusion models. |
+| **[PromptLayer](https://promptlayer.com)** | **$4.8M Seed funding** (backed by ScOp, Stellation, OpenAI & Anthropic angels; ~$1M ARR) | $49.00/month (Pro tier) | Free forever for up to 2,500 requests/month, 10 registered prompts, and 250 evaluation cell executions. | Enterprise prompt CMS, Git-like prompt versioning, visual regression playground, and LLM observability trace linking. |
+| **[AIPRM](https://aiprm.com)** | **Profitable / Bootstrapped** (High-margin browser SaaS; nominal <$300k early capital) | $20.00/month (Plus tier; Pro at $39/mo) | Free forever with community prompt library access and 2 private prompt slots inside ChatGPT and Claude extensions. | Browser-native prompt management suite with 4,000+ curated marketing, SEO, copywriting, and coding prompt templates. |
+| **[PromptBase](https://promptbase.com)** | **Bootstrapped / Profitable** (Top creator marketplace taking 20% commission) | $19.00/month ($14 1st-mo promo on PromptBase Select, or $1.99–$9.99/prompt a la carte) | Free forever account to browse catalog, claim free community prompt listings, and register as a creator/seller. | Commercial prompt marketplace to buy and sell engineered prompt templates for Midjourney, FLUX, ChatGPT, Claude, and Veo. |
+| **[PromptHero](https://prompthero.com)** | **Acquired / Lean Startup** (Self-funded community exit, multimillion monthly visits) | $19.00/month (Starter tier; Pro at $29/mo) | Free forever for public prompt discovery and personal-use generations with standard generation speed and public logs. | Visual prompt search engine and community repository for Stable Diffusion, Midjourney, FLUX, and LLM prompting styles. |
+| **[PromptHub](https://prompthub.us)** | **Seed-stage / Angel funded** (Collaborative prompt Git platform) | $9.00/month (Pro tier; Team at $20/seat/mo) | Free forever for 1 user seat, up to 2,000 requests/month, unlimited public prompts, and ~10 prompt enhancements/month (no batch evaluations). | Collaborative prompt management platform built like GitHub for prompts—featuring branching, side-by-side model diffs, and team approvals. |
+| **[Learn Prompting](https://learnprompting.org)** | **Self-funded / EdTech Startup** (Global community course backed by industry sponsors) | $21.00/month (Plus/Pro, billed annually; Teams at $25/seat/mo) | Free forever access to introductory curriculum (*ChatGPT for Everyone*, basic prompting guides) plus 3-day to 7-day free trial on select Pro courses. | Comprehensive prompt engineering courseware, agent architecture training, prompt hacking certifications, and in-browser tutor playground. |
+| **[ChatX](https://chatx.ai)** | **Bootstrapped** (Micro-SaaS prompt hub) | $9.90/month (or pay-as-you-go token packs from $5.00) | Free forever with 15,000 free tokens daily upon account sign-up, plus no-login public testing on lightweight models. | Multi-model prompt playground, categorized prompt repository, and token-based prompt testing workbench for generative text and image generation. |
+| **[Snack Prompt](https://snackprompt.com)** | **Bootstrapped** (Community-driven platform) | Free / Creator a la carte tips ($2.00–$10.00 creator-set pricing on premium workflows) | Free forever with full community prompt search, upvoting, custom bookmarking, and Chrome extension snippet runner. | Social prompt discovery feed, trending daily prompt upvotes, and browser extensions to inject community prompts into ChatGPT. |
 
-
-
-- **[PromptHub](https://prompthub.us)**  
-
-  Collaborative cloud prompt management platform built like GitHub for prompts—featuring branching, side-by-side model testing, team approvals, and public template galleries.
-
-
-
-- **[PromptPerfect (Jina AI)](https://jina.ai)**  
-
-  Cloud AI prompt optimization and engineering studio that automatically refines, compresses, and adapts prompt templates across major LLMs and image diffusion models.
-
-
-
-- **[AIPRM](https://aiprm.com)**  
-
-  Browser extension and cloud prompt management suite providing thousands of curated marketing, SEO, copywriting, and coding prompt templates directly inside ChatGPT and Claude.
-
-
-
-- **[PromptBase](https://promptbase.com)**  
-
-  Commercial prompt marketplace where creators buy and sell engineered prompt templates for Midjourney, FLUX, GPT, Claude, and Veo/Runway video workflows.
-
-
-
-- **[PromptHero](https://prompthero.com)**  
-
-  Searchable cloud prompt discovery platform and community gallery showcasing millions of image, video, and LLM prompt templates with model parameters and style modifiers.
-
-
-
-- **[FlowGPT](https://flowgpt.com)**  
-
-  Interactive cloud prompt community and AI bot-sharing platform featuring categorized prompt templates, multi-turn workflows, and instant web testing.
-
-
-
-- **[Snack Prompt](https://snackprompt.com)**  
-
-  Collaborative prompt discovery and team organization platform enabling creators to curate, upvote, and share structured prompt chains and templates.
-
-
-
-- **[ChatX](https://chatx.ai)**  
-
-  Free and commercial prompt marketplace and generator offering categorized prompt templates for ChatGPT, Midjourney, and Stable Diffusion workflows.
-
-
-
-- **[Learn Prompting (Pro & Prompt Hacking Courses)](https://learnprompting.org)**  
-
-  Comprehensive open-access and Pro educational platform teaching structured prompt engineering, chain-of-thought, agentic prompting, and AI red-teaming techniques.
-
-
-
-
+---
 
 ## Open-Source GitHub Projects
 
+Curated open-source prompt libraries, coding agent instructions (`CLAUDE.md`, `.cursorrules`), full-stack AI templates, and algorithmic prompt optimizers. 
 
+Sorted descending by current GitHub Star count.
 
-- **[davila7/claude-code-templates](https://github.com)**  
+### 1. f/awesome-chatgpt-prompts
+[![Stars](https://img.shields.io/github/stars/f/awesome-chatgpt-prompts?style=social&color=white)](https://github.com/f/awesome-chatgpt-prompts/stargazers) • `CC0-1.0`  
+The definitive open-source community repository of role-playing, coding, writing, and system prompt templates adapted across ChatGPT, Claude, and local LLMs. Includes self-hostable community web interfaces and desktop apps.
 
-  Comprehensive open-source (`MIT`) CLI and template registry providing ready-to-use agents, slash commands, MCP server configs, hooks, and `CLAUDE.md` boilerplates for Claude Code workflows.
+### 2. github/spec-kit
+[![Stars](https://img.shields.io/github/stars/github/spec-kit?style=social&color=white)](https://github.com/github/spec-kit/stargazers) • `MIT`  
+GitHub's official toolkit and structured prompt framework for Specification-Driven Development (SDD), providing iterative `Specify -> Plan -> Implement` prompt workflows for coding assistants.
 
+### 3. x1xhlol/system-prompts-and-models-of-ai-tools
+[![Stars](https://img.shields.io/github/stars/x1xhlol/system-prompts-and-models-of-ai-tools?style=social&color=white)](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/stargazers) • `GPL-3.0`  
+Extensive reference archive tracking leaked and decompiled production system prompts, internal tool schemas, and behavioral templates from Cursor, Claude Code, Windsurf, Devin, v0, Lovable, Manus, and Replit.
 
+### 4. dair-ai/Prompt-Engineering-Guide
+[![Stars](https://img.shields.io/github/stars/dair-ai/Prompt-Engineering-Guide?style=social&color=white)](https://github.com/dair-ai/Prompt-Engineering-Guide/stargazers) • `MIT`  
+Comprehensive educational guide, research paper repository, and practical prompt engineering handbook covering Zero-Shot, Few-Shot, Chain-of-Thought (CoT), Directional Stimulus, ReAct, and Tree-of-Thoughts prompting.
 
-- **[Awesome ChatGPT Prompts (`f/awesome-chatgpt-prompts`)](https://github.com)**  
+### 5. openai/openai-cookbook
+[![Stars](https://img.shields.io/github/stars/openai/openai-cookbook?style=social&color=white)](https://github.com/openai/openai-cookbook/stargazers) • `MIT`  
+Official OpenAI repository of code examples, structured prompt engineering patterns, function calling templates, embeddings recipes, and production task workflows.
 
-  Iconic open-source (`CC0-1.0`) community repository of hundreds of role-playing, coding, writing, and system prompt templates adapted across ChatGPT, Claude, and local LLMs.
-
-
-
-- **[Fabric (`danielmiessler/fabric`)](https://github.com)**  
-
-  Open-source (`MIT`) crowdsourced framework and CLI of modular, composable Markdown prompt "Patterns" designed for code review, summarization, threat modeling, and Unix pipelines.
-
-
-
-- **[Awesome CursorRules (`PatrickJS/awesome-cursorrules`)](https://github.com)**  
-
-  Massive open-source (`CC0-1.0`) collection of framework-specific `.cursorrules` and AI IDE instruction templates for Next.js, Python, Rust, React, Tailwind, and TypeScript projects.
-
-
-
-- **[Agent Skills Specification & Registry (`agentskills/agentskills` & `ComposioHQ/awesome-claude-skills`)](https://github.com)**  
-
-  Open-source standard and community repositories of portable `SKILL.md` capability templates equipping Claude Code, Cursor, Codex, and Gemini CLI with specialized workflows.
-
-
-
-- **[LangChain Hub / Prompts (`hwchase17/langchain-hub`)](https://github.com)**  
-
-  Open-source collection of reusable prompt templates, agent instructions, and chain configurations designed for programmatic loading in LangChain and LangGraph apps.
-
-
-
-- **[System Prompts & Models of AI Tools (`x1xhlol/system-prompts-and-models-of-ai-tools`)](https://github.com)**  
-
-  Open-source reference archive documenting production system prompts, tool schemas, and behavioral templates from leading AI coding editors and assistants.
-
-
-
-- **[Vercel AI Chatbot Boilerplate (`vercel/ai-chatbot`)](https://github.com)**  
-
-  Official open-source (`Apache-2.0`) full-stack Next.js AI application template built with Vercel AI SDK, Auth.js, PostgreSQL, streaming generative UI, and Artifacts support.
-
-
-
-- **[Full-Stack FastAPI Template (`fastapi/full-stack-fastapi-template`)](https://github.com)**  
-
-  Production-ready open-source (`MIT`) Python FastAPI + React + PostgreSQL + Docker boilerplate widely used as the foundation for custom AI agent and RAG web backends.
-
-
-
-- **[LangGraph Studio & Agent Templates (`langchain-ai/new-langgraph-project`)](https://github.com)**  
-
-  Official open-source (`MIT`) starter boilerplates from LangChain for scaffolding stateful ReAct agents, multi-agent supervisors, RAG pipelines, and memory-enabled assistants.
-
-
-
-- **[Create Llama (`run-llama/create-llama`)](https://github.com)**  
-
-  Official open-source (`MIT`) CLI scaffolding tool from LlamaIndex that generates full-stack Next.js/FastAPI RAG and agentic boilerplates in seconds.
-
-
-
-- **[DSPy (`stanfordnlp/dspy`)](https://github.com)**  
-
-  Open-source (`MIT`) declarative framework from Stanford NLP that replaces brittle hand-crafted prompt templates with typed signatures and algorithmic prompt optimizers.
-
-
-
-- **[BAML (`BoundaryML/baml`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) domain-specific language and VS Code playground for writing type-safe, testable prompt templates that guarantee validated structured outputs.
-
-
-
-- **[Agenta (`Agenta-AI/agenta`)](https://github.com)**  
-
-  Self-hostable open-source (`MIT`) LLMOps and prompt engineering platform providing a side-by-side prompt playground, template registry, and automated evaluation suites.
-
-
-
-- **[Langfuse Prompt Management (`langfuse/langfuse`)](https://github.com)**  
-
-  Self-hostable open-source LLM engineering platform offering a decoupled Prompt CMS with environment labels (`production`, `staging`), composability, and trace linking.
-
-
-
-- **[Promptfoo (`promptfoo/promptfoo`)](https://github.com)**  
-
-  Fast open-source (`MIT`) CLI and library for testing prompt templates against golden datasets, comparing LLMs side by side, and automating CI/CD regression checks.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Prompt Engineering Guide (`dair-ai/Prompt-Engineering-Guide`)](https://github.com)** for a comprehensive open-source (`MIT`) handbook covering zero-shot, few-shot, Chain-of-Thought, ReAct, and Tree-of-Thoughts prompting techniques.
-
-- **[Spec-Kit (`github/spec-kit`)](https://github.com)** and **[EveryInc/compound-engineering-plugin](https://github.com)** for structured spec-driven (`Specify -> Plan -> Implement`) and compound-engineering prompt templates.
-
-- **[Saas-Boilerplate / Open SaaS (`wasp-lang/open-saas`)](https://github.com)** and **[Next.js SaaS Starter (`nextjs/saas-starter`)](https://github.com)** for open-source full-stack SaaS boilerplates (Stripe, Auth, DB) ready to wrap AI agent APIs.
-
-- **[alvinunreal/lazyskills](https://github.com)** for an open-source terminal TUI manager that browses, installs, and organizes `SKILL.md` prompt templates locally.
-
-- **[Jinja2 (`pallets/jinja`)](https://github.com)** and **[Handlebars.js (`handlebars-lang/handlebars.js`)](https://github.com)** for battle-tested, logic-capable template engines powering dynamic system prompt rendering in production pipelines.
+### 6. fastapi/full-stack-fastapi-template
+[![Stars](https://img.shields.io/github/stars/fastapi/full-stack-fastapi-template?style=social&color=white)](https://github.com/fastapi/full-stack-fastapi-template/stargazers) • `MIT`  
+Production-ready Python FastAPI + React + PostgreSQL + Docker Compose boilerplate. Serves as the premier enterprise foundation for custom AI agent backends, async task queues (Celery/ARQ), and RAG APIs.
+
+### 7. danielmiessler/fabric
+[![Stars](https://img.shields.io/github/stars/danielmiessler/fabric?style=social&color=white)](https://github.com/danielmiessler/fabric/stargazers) • `MIT`  
+Crowdsourced modular framework and CLI of Markdown prompt "Patterns". Designed for piping Unix stdout/stdin through composable prompt templates for code review, threat modeling, technical writing, and summarization.
+
+### 8. PatrickJS/awesome-cursorrules
+[![Stars](https://img.shields.io/github/stars/PatrickJS/awesome-cursorrules?style=social&color=white)](https://github.com/PatrickJS/awesome-cursorrules/stargazers) • `CC0-1.0`  
+Curated collection of framework-specific `.cursorrules` and AI IDE instructions for Next.js, Python, Rust, React, Tailwind, TypeScript, Go, and Flutter repositories.
+
+### 9. stanfordnlp/dspy
+[![Stars](https://img.shields.io/github/stars/stanfordnlp/dspy?style=social&color=white)](https://github.com/stanfordnlp/dspy/stargazers) • `MIT`  
+Stanford NLP's groundbreaking framework that replaces fragile manual prompt templates with declarative Python signatures, teleprompters, and algorithmic prompt optimizers (MIPROv2, BootstrapFewShot).
+
+### 10. langfuse/langfuse
+[![Stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers) • `MIT / FSL-1.1-MIT`  
+Open-source LLM engineering platform featuring a decoupled Prompt CMS with environment promotion labels (`production`, `staging`), composable prompt templates, LLM observability, and automated evaluations.
+
+### 11. davila7/claude-code-templates
+[![Stars](https://img.shields.io/github/stars/davila7/claude-code-templates?style=social&color=white)](https://github.com/davila7/claude-code-templates/stargazers) • `MIT`  
+Open-source CLI and template registry providing pre-configured `CLAUDE.md` templates, custom slash commands, autonomous agents, Model Context Protocol (MCP) server configs, and hooks for Claude Code workflows.
+
+### 12. promptfoo/promptfoo
+[![Stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers) • `MIT`  
+Battle-tested CLI and testing harness for evaluating prompt templates against test fixtures, measuring hallucination rates, running automated AI red-teaming, and preventing regressions in CI/CD pipelines.
+
+### 13. EveryInc/compound-engineering-plugin
+[![Stars](https://img.shields.io/github/stars/EveryInc/compound-engineering-plugin?style=social&color=white)](https://github.com/EveryInc/compound-engineering-plugin/stargazers) • `MIT`  
+Compound engineering prompt plugin and methodology for Claude Code, Cursor, and Codex, transforming single-prompt code generation into multi-stage structured architecture review and self-healing test cycles.
+
+### 14. vercel/ai-chatbot
+[![Stars](https://img.shields.io/github/stars/vercel/ai-chatbot?style=social&color=white)](https://github.com/vercel/ai-chatbot/stargazers) • `Apache-2.0`  
+Full-stack Next.js AI chatbot boilerplate developed by Vercel. Incorporates the Vercel AI SDK, streaming Generative UI, Auth.js, Postgres (Drizzle ORM), multi-modal attachments, and interactive Artifacts canvas.
+
+### 15. handlebars-lang/handlebars.js
+[![Stars](https://img.shields.io/github/stars/handlebars-lang/handlebars.js?style=social&color=white)](https://github.com/handlebars-lang/handlebars.js/stargazers) • `MIT`  
+Logic-less templating engine widely used in production prompt management pipelines to securely inject dynamic variables, conversation context, and few-shot examples into LLM prompts without arbitrary code execution risk.
+
+### 16. GoogleCloudPlatform/generative-ai
+[![Stars](https://img.shields.io/github/stars/GoogleCloudPlatform/generative-ai?style=social&color=white)](https://github.com/GoogleCloudPlatform/generative-ai/stargazers) • `Apache-2.0`  
+Official Google Cloud repository containing Gemini prompt templates, Vertex AI multimodal recipes, function-calling patterns, and production reasoning prompt examples.
+
+### 17. wasp-lang/open-saas
+[![Stars](https://img.shields.io/github/stars/wasp-lang/open-saas?style=social&color=white)](https://github.com/wasp-lang/open-saas/stargazers) • `MIT`  
+100% free open-source React + Node.js + Prisma full-stack SaaS boilerplate featuring Stripe/Polar billing, authentication, background worker jobs, and tailored AI agent prompt instructions (`AGENTS.md`).
+
+### 18. nextjs/saas-starter
+[![Stars](https://img.shields.io/github/stars/nextjs/saas-starter?style=social&color=white)](https://github.com/nextjs/saas-starter/stargazers) • `MIT`  
+Modern full-stack SaaS starter boilerplate from Next.js featuring Stripe subscription billing, PostgreSQL (Supabase/Neon), Auth, shadcn/ui components, and clean routes ready for rapid AI wrapper development.
+
+### 19. pallets/jinja
+[![Stars](https://img.shields.io/github/stars/pallets/jinja?style=social&color=white)](https://github.com/pallets/jinja/stargazers) • `BSD-3-Clause`  
+Fast, expressive, and extensible Python templating engine. The foundational engine powering dynamic prompt variable interpolation, conditional prompt branches, and macro formatting across LangChain, LlamaIndex, and Hugging Face.
+
+### 20. brexhq/prompt-engineering
+[![Stars](https://img.shields.io/github/stars/brexhq/prompt-engineering?style=social&color=white)](https://github.com/brexhq/prompt-engineering/stargazers) • `MIT`  
+Brex's production-grade prompt engineering guidebook detailing practical prompt engineering techniques, defensive prompting, context caching strategies, and evaluation heuristics learned while building AI financial agents.
+
+### 21. BoundaryML/baml
+[![Stars](https://img.shields.io/github/stars/BoundaryML/baml?style=social&color=white)](https://github.com/BoundaryML/baml/stargazers) • `Apache-2.0`  
+Domain-specific programming language for AI prompt engineering that turns LLMs into type-safe functions with guaranteed schema enforcement (Pydantic/TypeScript), visual playgrounds, and live streaming parsers.
+
+### 22. Agenta-AI/agenta
+[![Stars](https://img.shields.io/github/stars/Agenta-AI/agenta?style=social&color=white)](https://github.com/Agenta-AI/agenta/stargazers) • `Apache-2.0`  
+Open-source developer-first LLMOps platform providing a collaborative prompt playground, versioned prompt registry, automated custom evaluation metrics, and one-click API deployment.
+
+### 23. hwchase17/langchain-hub
+[![Stars](https://img.shields.io/github/stars/hwchase17/langchain-hub?style=social&color=white)](https://github.com/hwchase17/langchain-hub/stargazers) • `MIT`  
+Open-source repository of reusable prompt templates, multi-turn reasoning chains, and agent instructions built for programmatic ingestion into LangChain and LangGraph runtimes.
+
+### 24. run-llama/create-llama
+[![Stars](https://img.shields.io/github/stars/run-llama/create-llama?style=social&color=white)](https://github.com/run-llama/create-llama/stargazers) • `MIT`  
+Official CLI scaffolding tool from LlamaIndex that creates full-stack Next.js, Express, or FastAPI Retrieval-Augmented Generation (RAG) applications and multi-modal agent backends in seconds.
+
+### 25. alvinunreal/lazyskills
+[![Stars](https://img.shields.io/github/stars/alvinunreal/lazyskills?style=social&color=white)](https://github.com/alvinunreal/lazyskills/stargazers) • `MIT`  
+Terminal TUI manager and mission control utility for discovering, installing, syncing, and organizing reusable `SKILL.md` prompt capability files across local AI developer workspaces.
+
+### 26. langchain-ai/new-langgraph-project
+[![Stars](https://img.shields.io/github/stars/langchain-ai/new-langgraph-project?style=social&color=white)](https://github.com/langchain-ai/new-langgraph-project/stargazers) • `MIT`  
+Official starter boilerplate for building stateful multi-agent architectures, human-in-the-loop workflows, and long-term memory assistants with LangGraph, LangGraph Studio, and LangGraph Cloud.
+
+---
+
+## Key Architectural Components
+
+When evaluating tools for building production LLM applications, consider the core layers of modern AI prompt engineering:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                   Application Layer                         │
+│  Next.js AI Chatbot / Full-Stack FastAPI / Open SaaS Boilerplate
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+┌──────────────────────────────▼──────────────────────────────┐
+│             Agent Configs & Instruction Rules               │
+│     CLAUDE.md  │  SKILL.md  │  .cursorrules  │  Spec-Kit    │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+┌──────────────────────────────▼──────────────────────────────┐
+│            Prompt CMS, Templating & Compilation             │
+│    Langfuse / PromptLayer / PromptHub / Jinja2 / BAML       │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+┌──────────────────────────────▼──────────────────────────────┐
+│           Optimization, Evaluation & Red-Teaming            │
+│         DSPy (MIPROv2)  │  Promptfoo  │  Agenta             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+1. **System & Agent Instruction Files**: Persistent project context files (`CLAUDE.md`, `.cursorrules`, `SKILL.md`, `AGENTS.md`) that guide AI coding agents on repository conventions, dependencies, lint rules, and build scripts.
+2. **Deterministic Schemas & Templating**: Prompt templating languages (`Jinja2`, `Handlebars`, `BAML`) that enforce dynamic parameter injection and type-safe JSON schema output guarantees.
+3. **Automated Prompt Compilers**: Algorithmic optimizers like `DSPy` that automatically synthesize, tune, and select few-shot demonstrations based on quantitative loss functions rather than manual trial-and-error.
+4. **CI/CD Quality Gates & Security**: Automated evaluation runners like `promptfoo` that run prompt suites against evaluation datasets, catch regressions, and conduct security red-teaming (jailbreaks, prompt injection, data extraction).
+
+---
+
+## How to Contribute
+
+Contributions are welcome and greatly appreciated! Help keep this ecosystem guide comprehensive and accurate:
+
+1. Fork the repository.
+2. Create a descriptive feature branch (`git checkout -b add-my-prompt-tool`).
+3. Add your entry to the appropriate section:
+   - For **SaaS platforms**, ensure tabular format with specific starting pricing, explicit free tier limits, and verifiable company scale/valuation.
+   - For **Open-source projects**, provide the repo link, exact license, a linked stargazers badge (`https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white`), and place it according to its star ranking.
+4. Keep entries objective and factual.
+5. Commit your changes (`git commit -m 'Add <project-name>'`) and open a Pull Request.
+
+---
+
+## Disclaimer & License
+
+Distributed under the MIT License. See [LICENSE](file:///C:/Users/ishan/Documents/Projects/Awesome-AI-Prompt-Templates-Developer-Boilerplates/LICENSE) for more information.
+
+All product names, logos, and brands are property of their respective owners. Mention in this repository does not imply endorsement.
