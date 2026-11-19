@@ -91,7 +91,7 @@ Commercial prompt engineering studios, prompt registries (CMS), marketplaces, an
 
 Curated open-source prompt libraries, coding agent instructions (`CLAUDE.md`, `.cursorrules`), full-stack AI templates, and algorithmic prompt optimizers. 
 
-Sorted descending by current GitHub Star count. ⭐
+Sorted descending by current GitHub Stars_Count. ⭐
 
 ### 1. 💬 f/awesome-chatgpt-prompts
 [![Stars](https://img.shields.io/github/stars/f/awesome-chatgpt-prompts?style=social&color=white)](https://github.com/f/awesome-chatgpt-prompts/stargazers) • `CC0-1.0`  
